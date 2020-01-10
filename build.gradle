@@ -41,7 +41,7 @@ task copy(type: Copy, group: "pluginss", description:"copies source to the dest 
 }
 task zip(type: Zip){
 	from"src"
-//	setArchiveName"xxx.zip"
+//	   setArchiveName"xxx.zip"
 
 }
 task hello{
